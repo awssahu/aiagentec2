@@ -1,0 +1,13 @@
+{
+    "issues": {
+        "high_cpu": "Consider restarting the application.",
+        "memory_leak": "Restart the instance and check the logs for memory usage patterns.",
+        "disk_full": "Clear old logs or increase disk space."
+    },
+    "actions": {
+        "restart_instance": "Reboot the EC2 instance if system logs indicate a critical error."
+    },
+    "faq": {
+        "restart_ec2": "How do I restart an EC2 instance? Use the AWS CLI or console to reboot the instance."
+    }
+}
